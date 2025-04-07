@@ -1,10 +1,10 @@
-package ex5;
+package fr.diginamic.propre.ex5;
 
 public class Item {
 
 	private String nom;
 	private int poids;
-	
+
 	/** Getter pour l'attribut nom
 	 * @return the nom
 	 */

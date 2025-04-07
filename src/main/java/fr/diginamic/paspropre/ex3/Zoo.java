@@ -1,4 +1,4 @@
-package ex3;
+package fr.diginamic.paspropre.ex3;
 public class Zoo {
 
 	private String nom;
@@ -15,13 +15,13 @@ public class Zoo {
 		noms.add(nomAnimal);
 		comportements.add(comportement);
 	}
-	
+
 	public void afficherListeAnimaux(){
 		for (int i=0; i<types.size(); i++) {
 			System.out.println(noms.get(i)+" "+types.get(i)+" "+comportements.get(i));
 		}
 	}
-	
+
 	public int taille() {
 		return types.size();
 	}

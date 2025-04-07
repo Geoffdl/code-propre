@@ -1,4 +1,4 @@
-package ex2;
+package fr.diginamic.paspropre.ex2;
 
 public class LivretA extends CompteBancaire {
 

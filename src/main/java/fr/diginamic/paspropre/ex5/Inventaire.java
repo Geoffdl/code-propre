@@ -1,4 +1,4 @@
-package ex5;
+package fr.diginamic.paspropre.ex5;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -29,7 +29,7 @@ public class Inventaire {
 	}
 
 	public int taille() {
-		
+
 		//TODO faites évoluer ce code.
 		return caisses.get(0).getItems().size() + caisses.get(1).getItems().size() + caisses.get(2).getItems().size();
 	}

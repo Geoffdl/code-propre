@@ -1,9 +1,9 @@
-package ex3;
+package fr.diginamic.paspropre.ex3;
 public class ZooApplication {
 
 	public static void main(String[] args) {
 		Zoo zoo = new Zoo("Thoiry");
-		
+
 		zoo.addAnimal("Gazelle", "MAMMIFERE", "HERBIVORE");
 		zoo.addAnimal("Zèbre", "MAMIFERE", "HERBIVORE");
 		zoo.addAnimal("Lion", "MAMMIFERE", "HERBIVORE");

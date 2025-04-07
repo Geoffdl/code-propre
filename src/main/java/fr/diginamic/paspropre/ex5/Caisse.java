@@ -1,4 +1,4 @@
-package ex5;
+package fr.diginamic.paspropre.ex5;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -44,5 +44,5 @@ public class Caisse {
 	public void setItems(List<Item> items) {
 		this.items = items;
 	}
-	
+
 }
